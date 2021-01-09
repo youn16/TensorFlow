@@ -1,8 +1,0 @@
-# WEEK 3 :Enhancing Vision with Convolutional Neural Networks
-> 메인 주제는 convolution, 가방의 가방끈을 알아보도록하고, 신발의 굽(또는 신발 끈)을 알아보도록하는 기술
-> It's a filter that you pass over an image in the same way as if you're doing sharpening(선명하게), if you've ever done image processing.
-
-회색이 이미지의 픽셀, 빨간색이 필터.
-이들을 곱해 값을 만드는 것이 convolution
--> convolution는 이미지의 몇가지 특징이 강조 되도록 이미지를 변경 시킬수 있다.
-ex) 수직이 강조 될수도, 수평이 강조 될 수도 있다.
