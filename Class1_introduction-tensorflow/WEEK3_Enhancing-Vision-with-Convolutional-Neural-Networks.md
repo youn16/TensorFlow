@@ -49,7 +49,11 @@ model = tf.keras.models.Sequential([
 
 ```
 # 코드 설명1
-We're asking keras to generate 64 filters for us. These filters are 3 by 3, their activation is relu, which means the negative values will be thrown way, and finally the input shape is as before, the 28 by 28. That extra 1 just means that we are tallying using a single byte for color depth. As we saw before our image is our gray scale, so we just use one byte.
+We're asking keras to generate 64 filters for us. 
+These filters are 3 by 3, their activation is relu, which means the negative values will be thrown way, 
+and finally the input shape is as before, the 28 by 28. 
+That extra 1 just means that we are tallying using a single byte for color depth.
+As we saw before our image is our gray scale, so we just use one byte.
 
 # 코드 설명2
 최대값을 갖는 Pooling, 2by2 -> 4개의 픽셀 중에 가장 큰 것을 취한다.
@@ -57,3 +61,7 @@ We're asking keras to generate 64 filters for us. These filters are 3 by 3, thei
 -> 코드가 반복되면서 훨씬 적은 양을 갖게 된다.
 
 ```
+
+### losing poxel margi
+> pooling을 하게 되면 필터의 크기에 따라 겉의 픽셀들을 사용할 수 없게 된다.
+
